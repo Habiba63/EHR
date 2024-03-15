@@ -89,7 +89,7 @@ WSGI_APPLICATION = 'DjangoEHR.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'habibahammouda1210215',
+        'NAME': 'postgres',
         'USER': 'HabibaHammouda',
         'PASSWORD': 'Habiba_2003server',
         'HOST': 'habibahammouda1210215.postgres.database.azure.com',
@@ -97,7 +97,6 @@ DATABASES = {
         'OPTIONS':{'sslmode':'require'},
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/4.0/ref/settings/#auth-password-validators
